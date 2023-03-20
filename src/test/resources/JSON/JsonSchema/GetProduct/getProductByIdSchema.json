@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "upc": {
+          "type": "string"
+        },
+        "category": {
+          "type": "string"
+        },
+        "product_name": {
+          "type": "string"
+        },
+        "stock": {
+          "type": "integer"
+        },
+        "minimum_stock": {
+          "type": "integer"
+        },
+        "buying_price": {
+          "type": "integer"
+        },
+        "price": {
+          "type": "integer"
+        },
+        "product_image": {
+          "type": "string"
+        },
+        "supplier": {
+          "type": "string"
+        },
+        "items_sold": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "upc",
+        "category",
+        "product_name",
+        "stock",
+        "minimum_stock",
+        "buying_price",
+        "price",
+        "product_image",
+        "supplier",
+        "items_sold"
+      ]
+    },
+    "message": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "data",
+    "message"
+  ]
+}

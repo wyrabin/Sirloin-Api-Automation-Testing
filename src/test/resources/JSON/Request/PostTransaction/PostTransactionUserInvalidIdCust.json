@@ -1,0 +1,11 @@
+{
+  "items": [
+    {
+      "product_id": 1,
+      "quantity": 10,
+      "price": 5000
+    }
+  ],
+  "customer_id": "1",
+  "payment_method": "cashless"
+}

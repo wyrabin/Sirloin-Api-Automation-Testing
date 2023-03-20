@@ -1,0 +1,84 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "user_id": {
+          "type": "integer"
+        },
+        "tenant_name": {
+          "type": "string"
+        },
+        "customer_id": {
+          "type": "integer"
+        },
+        "customer_name": {
+          "type": "string"
+        },
+        "total_price": {
+          "type": "integer"
+        },
+        "discount": {
+          "type": "integer"
+        },
+        "total_bill": {
+          "type": "integer"
+        },
+        "created_at": {
+          "type": "string"
+        },
+        "transaction_Status": {
+          "type": "string"
+        },
+        "product_status": {
+          "type": "string"
+        },
+        "invoice_number": {
+          "type": "string"
+        },
+        "invoice_url": {
+          "type": "string"
+        },
+        "payment_url": {
+          "type": "string"
+        },
+        "pdf_url": {
+          "type": "string"
+        },
+        "user_email": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "user_id",
+        "tenant_name",
+        "customer_id",
+        "customer_name",
+        "total_price",
+        "discount",
+        "total_bill",
+        "created_at",
+        "transaction_Status",
+        "product_status",
+        "invoice_number",
+        "invoice_url",
+        "payment_url",
+        "pdf_url",
+        "user_email"
+      ]
+    },
+    "message": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "data",
+    "message"
+  ]
+}

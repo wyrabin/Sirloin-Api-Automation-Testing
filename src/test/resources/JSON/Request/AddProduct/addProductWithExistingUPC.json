@@ -1,0 +1,11 @@
+{
+  "upc": "2136561511235",
+  "category": "food",
+  "product_name": "Fiesta Chicken Nugget",
+  "minimum_stock": 5,
+  "stock": 46,
+  "buying_price": 8000,
+  "price": 10000,
+  "product_image": "Fiesta_Chicken1.png",
+  "supplier": "CP Food"
+}

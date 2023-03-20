@@ -1,0 +1,11 @@
+{
+  "upc": "2046561511235",
+  "category": "drink",
+  "product_name": "Teh Pucuk Harum",
+  "minimum_stock": 5,
+  "stock": 40,
+  "buying_price": 3000,
+  "price": 5000,
+  "product_image": "Teh_Pucuk1.png",
+  "supplier": "PT. Mayora Indah"
+}
